@@ -1,0 +1,40 @@
+# Исполняемые файлы
+*.out
+*.o
+*.bin
+*.elf
+*.so
+*.a
+
+# Отладочная информация
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Временные файлы
+*~
+*.swp
+*.swo
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Cursor AI
+.cursor/
+
+# Build директории
+build/
+bin/
+obj/
+
+# Core dumps
+core
+core.*
+
+# Valgrind
+vgcore.*
+*.log
