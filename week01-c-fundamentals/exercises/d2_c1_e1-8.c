@@ -5,9 +5,7 @@ int main() {
 
     long blanks = 0, tabs = 0, newlines = 0, c;
 
-    while (1) {
-        c = getchar();
-
+    while ((c = getchar()) != EOF) {
         if (c == '\n') {
             ++newlines;
         } else if (c == '\t') {
